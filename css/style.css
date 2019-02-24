@@ -1,0 +1,60 @@
+* {
+  font-style: italic;
+}
+
+.quotation {
+  color: green;
+  display: block;
+}
+
+body {
+  margin: 5vw 5vh;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+h1 {
+  font-weight: 168;
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+h2 {
+  font-weight: 168;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#image { 
+  height: auto;
+  margin: auto;
+  display: block; 
+  max-width: 429px;
+}
+
+main {
+  font-family: times;
+}
+
+.centered {
+  font-size: 20px;
+  text-align: center;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+  padding-top: 2em;
+}
+
+footer {
+  text-align: center;
+  font-family: times;
+  padding-top: 2em;
+}
+
+article {
+  padding-bottom: 2em;
+}
