@@ -1,2 +1,2 @@
-# CyrusTheGreat
-Cyrus The Great - Tribute Page
+# Cyrus The Great
+Responsive Web Design Projects - Tribute Page
