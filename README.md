@@ -4,6 +4,6 @@
 </a>
 <br/>
 Responsive Web Design Projects - Tribute Page
-<p>
+<p style="text-align: center; ">
   Copyright&copy; 2019 <a href="mailto:ardeshirv@protonmail.com" alt="email">ArdeshirV@protonmail.com</a>, Licensed under GPL<sup>v3+</sup>
 <p/>
