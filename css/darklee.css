@@ -1,0 +1,213 @@
+
+    :root {
+      --background-color: black;
+      --element-fore-color: yellow;
+      --element-back-color: transparent;
+      --button-fore-color: black;
+      --title-main-color: red;
+      --title-color: lime;
+      --footer-main-color: gray;
+      --code-color: #AA0;
+      --code-background: #005;
+      --subtitle-color: lime;
+      --button-back-color: teal;
+      --button-back-color-hover: aqua;
+      --button-back-color-active: blue;
+      --my-color: 0, 128, 128;
+
+      color: yellow;
+      color: var(--element-fore-color);
+      background-color: black;
+      background-color: var(--background-color);
+    }
+
+    footer,
+    section,
+    article {
+      padding-left: 1rem;
+      text-align: justify;
+    }
+
+    bodyClass {
+      height: 100vh;
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+      border-width: 0;
+      min-width: 256px;
+      font-family: 'Arial';
+      color: yellow;
+      color: var(--element-fore-color);
+      background-color: transparent;
+      background-color: var(--element-back-color);
+      /* background-image: radial-gradient(#007 20%, var(--background-color) 90%); */
+    }
+
+    main {
+      margin: 1em 1em 1em 1em;
+      padding: 0 0 0 0;
+      border-width: 0;
+    }
+
+    .headerMain {
+      border-width: 1px;
+      padding: 1em 1em 1em 1em;
+      background-image: radial-gradient(#700, var(--background-color) 60%);
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0 20% 0 20%;
+      text-align: center;
+      vertical-align: middle;
+      font-family: 'Times New Roman';
+      color: red;
+      color: var(--title-main-color);
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: lime;
+      color: var(--subtitle-color);
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.17em;
+    }
+
+    h4 {
+        font-size: 1.12em;
+    }
+
+    h5 {
+        font-size: 0.83em;
+    }
+
+    h6 {
+        font-size: 0.75em;
+    }
+
+    input {
+      border-radius: 1em;
+    }
+
+    .button {
+      /*height: 1em;*/
+      border: 0 solid transparent; /* border: 1px solid rgba(33, 68, 72, 0.59); */
+      /* margin: 0.2em 0.2em 0.2em 0.2em; */
+      padding: 0.2em 1em 0.2em 1em;
+      color: var(--button-fore-color);
+      text-align: center;
+      /*background: teal;
+      background: var(--button-back-color);
+      background: -webkit-linear-gradient(top, var(--button-back-color), #2f5f63);
+      background: -moz-linear-gradient(top, var(--button-back-color), #2f5f63);
+      background: -o-linear-gradient(top, var(--button-back-color), #2f5f63);
+      background: -ms-linear-gradient(top, var(--button-back-color), #2f5f63);
+      background: linear-gradient(top, var(--button-back-color), #2f5f63);*/
+      background: teal;
+      background: -webkit-linear-gradient(top, aqua, teal);
+      background: -moz-linear-gradient(top, aqua, teal);
+      background: -o-linear-gradient(top, aqua, teal);
+      background: -ms-linear-gradient(top, aqua, teal);
+      background: linear-gradient(top, aqua, teal);
+      -webkit-border-radius: 1em;
+      -khtml-border-radius: 1em;
+      -moz-border-radius: 1em;
+      border-radius: 1em;
+      /* -webkit-box-shadow: 0 0.2em 0 #1b383b;
+      -moz-box-shadow: 0 0.2em 0 #1b383b;
+      box-shadow: 0 0.2em 0 #1b383b;
+      text-shadow: 0 0.2em 0.2em rgba(255, 255, 255, 0.2); */
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select:none;
+      user-select: none;
+      -o-user-select: none;
+    }
+
+    a.button, button.button /*, input[type="button"].button*/ {
+      text-decoration: none;
+    }
+
+    a.button:focus, button.button:focus /*, input[type="button"]:focus*/ {
+      outline: none;
+      box-shadow: 0 0 2pt 2pt gold;
+    }
+
+    a.button:hover, button.button:hover /*, input[type="button"]:hovr*/ {
+      background: aqua;
+      background: -webkit-linear-gradient(top, teal, aqua);
+      background: -moz-linear-gradient(top, teal, aqua);
+      background: -o-linear-gradient(top, teal, aqua);
+      background: -ms-linear-gradient(top, teal, aqua);
+      background: linear-gradient(top, teal, aqua);
+    }
+
+    a.button:active, button.button:active /*, button.input[type=button] */ {
+      background: teal;
+      transform: scale(0.98);
+    }
+
+    code {
+      display: block;
+      width: auto;
+      min-width: 450px;
+      text-align: left;
+      word-break: normal;
+      word-wrap: normal;
+      white-space: pre;
+      margin: 0.5em 0 0.5em 0em;
+      padding-left: 1rem;
+      line-height: 1.5;
+      border-radius: 3em;
+      border-style: solid;
+      border-color: blue;
+      font-weight: bold;
+      color: #AA0;
+      color: var(--code-color);
+      background-color: black;
+      background-color: var(--code-background);
+      overflow-x: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footerMain p {
+      position: relative;
+      left: 0;
+      bottom: 0px;
+      width: 100%;
+      text-align: center;
+      margin: 0 0 0 0;
+      padding: 0.5em 0 0.5em 0;
+      color: var(--footer-main-color);
+    }
+
+    /* Desktop - applies on screens 769 and greater */
+    @media only screen and (min-width: 769) {
+    }
+
+    /* Tablets - applies on screen between 480 to 769 */
+    @media only screen and (min-width: 481) {
+    }
+
+    /* Smartphones - applies on screens between 0 and 480 */
+    @media only screen and (max-width: 480) {
+    }
+/*
+    .highlightBorder {
+       border-style: solid;
+      border-color: red;
+      border-width: 1px;
+    }
+*/
